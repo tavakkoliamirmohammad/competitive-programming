@@ -20,7 +20,7 @@ int main() {
             cout << persons[j % persons.size()] << ": " << song[j % 4] << endl;
         }
     } else {
-        for (int j = 0; j < ceil(persons.size() / 4.0) * 4 ; ++j) {
+        for (int j = 0; j < ceil(persons.size() / 4) * 16 ; ++j) {
             cout << persons[j % persons.size()] << ": " << song[j % 4] << endl;
         }
     }
