@@ -9,7 +9,7 @@ int main() {
     cin >> k;
     while (k != 0) {
         string line;
-        cin.ignore();
+        cin.ignore(10000, '\n');
         getline(cin, line);
         stringstream in(line);
         int temp;
